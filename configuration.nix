@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       ./users.nix
       ./software/general.nix
-      ./software/steam.nix
+      ./software/gaming.nix
       ./software/vscode.nix
       ./software/shell.nix
       ./software/virtualisation.nix
@@ -32,6 +32,8 @@
     "steam-original"
     "steam-runtime"
     "steam-run"      
+    "discord"
+    "teamspeak-client"
   ];
 
   # XServer Settings

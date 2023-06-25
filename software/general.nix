@@ -8,5 +8,10 @@
     firefox
     plasma-browser-integration
     git
+    signal-desktop
+    telegram-desktop
+    htop
+    iftop
+    iotop
   ];
 }
