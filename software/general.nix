@@ -7,11 +7,19 @@
     google-chrome
     firefox
     plasma-browser-integration
-    git
     signal-desktop
     telegram-desktop
     htop
     iftop
     iotop
+    kmail
+    anydesk
+    keepassxc
+    john
+    hashcat
+    hashcat-utils
+    cudatoolkit
+    remmina
+    bitwarden
   ];
 }

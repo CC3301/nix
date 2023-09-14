@@ -7,4 +7,16 @@
     initialPassword = "password"; # Change After Install
     shell = pkgs.zsh;
   };
+  security.ipa = {
+    enable = true;
+    realm = "INTERNAL.KFNET.IT";
+    server = "freeipa1-fkch.internal.kfnet.it";
+    cacheCredentials = true;
+    domain = "internal.kfnet.it";
+    basedn = "dc=internal,dc=kfnet,dc=it";
+    certificate = pkgs.fetchurl {
+      url = https://freeipa1-fkch.internal.kfnet.it/ipa/config/ca.crt;
+      sha256 = "1rl2q9w7kmcdqrl2bzcairiwzgkhwgjrldasyy0lx18ngz51n81y";
+    };
+  };
 }

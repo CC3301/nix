@@ -7,7 +7,20 @@
         bbenoist.nix
         ms-python.python
         ms-azuretools.vscode-docker
+        hashicorp.terraform
+        golang.go
       ];
     })
+    python310
+    python310Packages.dnspython    
+    terraform_1
+    ansible
+    go
+    gox
+    postman
+    wineWowPackages.stable
+    dig
+    kubectl
+    git
   ];
 }
