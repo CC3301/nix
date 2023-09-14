@@ -15,6 +15,7 @@
       ./software/development.nix
       ./software/shell.nix
       ./software/virtualisation.nix
+      ./software/media.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
