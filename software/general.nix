@@ -5,6 +5,7 @@
     vim 
     wget
     google-chrome
+    thunderbird
     firefox
     plasma-browser-integration
     signal-desktop
@@ -12,7 +13,6 @@
     htop
     iftop
     iotop
-    kmail
     anydesk
     keepassxc
     john

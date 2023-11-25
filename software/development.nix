@@ -9,6 +9,7 @@
         ms-azuretools.vscode-docker
         hashicorp.terraform
         golang.go
+        mikestead.dotenv
       ];
     })
     python310
@@ -22,5 +23,6 @@
     dig
     kubectl
     git
+    pgmodeler
   ];
 }

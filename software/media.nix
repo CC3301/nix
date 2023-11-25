@@ -7,5 +7,6 @@
     mediainfo
     glaxnimate
     ffmpeg
+    ardour
   ];
 }
