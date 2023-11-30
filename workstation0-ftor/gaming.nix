@@ -21,10 +21,4 @@
     ckb-next
    # (pkgs.makeAutostartItem { name = "ckb-next"; package = "ckb-next"; })
   ];
-
-  # Java
-  programs.java = { 
-    enable = true; 
-    package = pkgs.openjdk17; 
-  };
 }

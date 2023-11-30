@@ -7,15 +7,12 @@
 {
   imports =
     [ # Include Different Files
-      ./hardware-configuration.nix
-      ./users.nix
       ./networking.nix
-      ./software/general.nix
-      ./software/gaming.nix
-      ./software/development.nix
-      ./software/shell.nix
-      ./software/virtualisation.nix
-      ./software/media.nix
+      ./gaming.nix
+      ../hardware/hardware-configuration.nix
+      ../shared/users.nix
+      ../shared/general.nix
+      ../shared/development.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
